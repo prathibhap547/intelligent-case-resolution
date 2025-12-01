@@ -4,22 +4,24 @@
     <description>Customer sentiment detected from case text</description>
     <externalId>false</externalId>
     <label>Sentiment Analysis</label>
-    <picklist>
-        <picklistValues>
-            <fullName>Positive</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Neutral</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Negative</fullName>
-            <default>false</default>
-        </picklistValues>
-        <sorted>false</sorted>
-    </picklist>
     <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Positive</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Negative</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>

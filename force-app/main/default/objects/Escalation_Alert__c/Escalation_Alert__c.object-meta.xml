@@ -18,7 +18,6 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
-    <externalAccessLevel>INTERNAL</externalAccessLevel>
     <fields>
         <fullName>Case__c</fullName>
         <deleteConstraint>Cascade</deleteConstraint>

@@ -20,9 +20,7 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
-    <externalAccessLevel>INTERNAL</externalAccessLevel>
     <externalRepository>false</externalRepository>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>Case__c</fullName>
         <deleteConstraint>Cascade</deleteConstraint>

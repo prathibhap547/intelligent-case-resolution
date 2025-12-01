@@ -5,22 +5,24 @@
     <description>Priority value predicted by Einstein AI</description>
     <externalId>false</externalId>
     <label>AI Predicted Priority</label>
-    <picklist>
-        <picklistValues>
-            <fullName>High</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Medium</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>Low</fullName>
-            <default>false</default>
-        </picklistValues>
-        <sorted>false</sorted>
-    </picklist>
     <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
