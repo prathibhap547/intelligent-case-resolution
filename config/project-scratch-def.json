@@ -1,13 +1,26 @@
 {
-  "orgName": "Demo company",
-  "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "orgName": "Intelligent Case Resolution Platform",
+  "edition": "Enterprise",
+  "country": "US",
+  "language": "en_US",
+  "features": [
+    "ServiceCloud",
+    "EinsteinAnalytics",
+    "DataCloud",
+    "Agentforce",
+    "Communities",
+    "API"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
+    "serviceSetupSettings": {
+      "emailToCaseEnabled": true,
+      "webToCaseEnabled": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
     }
   }
 }
